@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Posts
+title: Blog
 ---
+
+Currently, while I develop my full stack personal blog with a backend/database, this will serve as my mini blog.
 
 <ul>
   {% for post in collections.posts.resources %}
@@ -10,5 +12,3 @@ title: Posts
     </li>
   {% endfor %}
 </ul>
-
-If you have a lot of posts, you may want to consider adding [pagination](https://www.bridgetownrb.com/docs/content/pagination)!
