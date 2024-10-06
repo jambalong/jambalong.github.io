@@ -1,14 +1,16 @@
+@import "../fonts/0xpropo.css";
+
 :root {
-  --body-background: #f2f2f2;
-  --body-color: #444;
-  --heading-color: black;
-  --action-color: #d64045;
+  --body-background: #181825;
+  --body-color: #cdd6f4;
+  --heading-color: #b4befe;
+  --action-color: #cba6f7;
 }
 
 body {
   background: var(--body-background);
   color: var(--body-color);
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
+  font-family: '0xPropo', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     "Helvetica", "Arial", sans-serif;
   margin: 0 8px;
@@ -19,7 +21,6 @@ body {
 a {
   color: var(--action-color);
   text-decoration: underline;
-  text-decoration-color: #ffb088;
 }
 
 h1 {
@@ -31,30 +32,63 @@ h1 {
   line-height: 1.2;
 }
 
-body > header {
-  margin: 1rem;
-  text-align: center;
+body > nav {
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70rem;
+  margin: auto;
+  padding: 0 20px;
+  background-color: var(--body-background);
 }
 
-body > header img {
-  display: inline-block;
-  width: 400px;
-  max-width: 100%;
+body > nav .logo h2 {
+  margin: 0;
+  font-size: 2.25rem;
 }
 
-body > nav ul {
+body > nav .logo h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+body > nav .nav-links {
   margin: 2rem 0;
   padding: 0;
-  list-style-type: none;
+  list-style: none;
   display: flex;
   justify-content: center;
   gap: 1.5rem;
   font-size: 1.3rem;
   font-weight: bold;
+  align-items: center;
 }
 
-body > nav a {
+body > nav .nav-links a {
   text-decoration: none;
+  display: block;
+  padding: 30px 16px;
+  transition: all ease-in-out 100ms;
+}
+
+body > nav .nav-links a:hover {
+  background-color: #313244;
+  border-radius: 3px;
+}
+
+body > nav .hamburger {
+  display: none;
+  cursor: pointer;
+  width: 34px;
+}
+
+body > nav .hamburger .bar {
+  flex-basis: 100%;
+  height: 4px;
+  background-color: #b4befe;
+  margin: 3px;
 }
 
 main {
@@ -62,8 +96,8 @@ main {
   max-width: 65rem;
   min-height: calc(100vh - 200px);
   padding: 25px 25px 50px;
-  background: white;
-  box-shadow: 2px 3px 3px #ddd;
+  background: #1e1e2e;
+  box-shadow: 2px 3px 3px #11111b;
   border-radius: 3px;
 
   @media (max-width: 500px) {
@@ -71,14 +105,93 @@ main {
   }
 }
 
-footer {
-  text-align: center;
+main .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2.5rem;
+}
+
+main .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  gap: 6px;
+}
+
+main .skill-icon {
+  width: 50px;
+  height: 50px;
+}
+
+main .skill-name {
+  font-size: 16px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 4rem;
   font-size: 1em;
+}
+
+footer .contact-list {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
 }
 
 hr {
   border: none;
   border-top: 2px dotted #bbb;
   margin: 3rem 0;
+}
+
+@media (max-width: 768px) {
+  body > nav {
+    flex-wrap: wrap;
+    min-height: 10rem;
+    padding-top: 20px;
+  }
+
+  body > nav .hamburger {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  body > nav .logo {
+    min-height: 80px;
+  }
+
+  body > nav .nav-links {
+    display: none;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+
+  body > nav .nav-links li {
+    flex-basis: 100%;
+  }
+
+  body > nav .nav-links a {
+    text-align: center;
+    font-size: 28px;
+    background-color: #1e1e2e;
+    border: solid #11111b;
+    border-radius: 3px;
+  }
+
+  body > nav .nav-links a:hover {
+    background-color: #313244;
+  }
+}
+
+@media (max-width: 480px) {
+  body > nav .logo h3 {
+    display: none;
+  }
 }
