@@ -159,7 +159,7 @@ Self-taught and determined, I'm a junior-level Full Stack developer seeking an o
 
 ## Customer Service & Sales Associate, Walmart
 
-### 2017 - 2018
+### 2016 - 2017
 
 - Assisted in remodeling efforts, ensuring product displays were appealing and aligned with store standards, which contributed to improved customer engagement.
 
