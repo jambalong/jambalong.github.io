@@ -3,6 +3,8 @@ layout: resume
 title: Resume
 ---
 
+[Download Resume](static/resume.pdf)
+
 - Email: <john@jambalong.com>
 - Walla Walla, Washington, USA
 - [GitHub](https://github.com/jambalong) -- [LinkedIn](www.linkedin.com/in/jambalong)
