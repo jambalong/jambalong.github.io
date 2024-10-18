@@ -15,15 +15,15 @@ Self-taught and determined, I'm a junior-level Full Stack developer seeking an o
 
 # Skills
 
-- **Languages:** Ruby, JavaScript, HTML5, CSS3
+- **Languages:** Ruby, JavaScript, Lua, GDScript, HTML5, CSS3
 
-- **Frameworks:** Ruby on Rails, Hotwire, Tailwind
+- **Frameworks:** Ruby on Rails, Hotwire, Bootstrap, Tailwind
 
-- **Testing:** RSpec, MiniTest
+- **Testing:** RSpec
 
-- **Deployment:** GitHub Actions, Heroku
+- **Deployment:** GitHub Actions, Heroku, DigitalOcean
 
-- **Tools:** Git, Neovim, Docker, Linux
+- **Tools:** Git, Neovim, Docker
 
 ----
 
@@ -31,11 +31,11 @@ Self-taught and determined, I'm a junior-level Full Stack developer seeking an o
 
 ## Portfolio Website
 
-#### _Bridgetown, Ruby, HTML, CSS, JavaScript, Markdown, GitHub Actions, GitHub Pages_
+#### _Bridgetown, Ruby, HTML, CSS, JavaScript_
 
 **Live:** [https://jambalong.com/](https://jambalong.com/)
 
-**[Repository](https://github.com/jambalong/jambalong.github.io)**
+**[Repository](https://github.com/jambalong/portfolio)**
 
 - Developed a personal portfolio website using Bridgetown for modern static site generation.
 
@@ -45,11 +45,11 @@ Self-taught and determined, I'm a junior-level Full Stack developer seeking an o
 
 - Utilized JavaScript to implement a hamburger menu for improved navigation on mobile screens.
 
-- Managed version control with Git and hosted the site on GitHub Pages.
+- Managed version control with Git and hosted the site on DigitalOcean.
 
 ## Project Pounce
 
-#### _GDScript, Godot Engine, Aseprite, Tiled Map Editor_
+#### _GDScript, Godot Engine_
 
 **[Repository](https://github.com/jambalong/project_pounce)**
 
@@ -65,7 +65,7 @@ Self-taught and determined, I'm a junior-level Full Stack developer seeking an o
 
 ## Chess CLI
 
-#### _Ruby, RSpec, Bundler, Rubocop, Git_
+#### _Ruby, RSpec_
 
 **Live:** [https://replit.com/@jambalong/chess](https://replit.com/@jambalong/chess)
 
@@ -87,7 +87,7 @@ Self-taught and determined, I'm a junior-level Full Stack developer seeking an o
 
 # Work Experience
 
-## CRM Manager, Bonson NorthWest
+## CRM Manager, Columbia Basin Benefits
 
 ### 2024 - Present
 
@@ -99,7 +99,7 @@ Self-taught and determined, I'm a junior-level Full Stack developer seeking an o
 
 - Provided ongoing support and troubleshooting to enhance user satisfaction and minimize disruptions.
 
-## Line Cook/Prep Cook, Bon Appétit
+## Line Cook/Prep Cook, Bon Appétit Management Company
 
 ### 2023 - 2024
 
@@ -111,17 +111,15 @@ Self-taught and determined, I'm a junior-level Full Stack developer seeking an o
 
 - Collaborated with kitchen staff to foster effective communication and teamwork during busy shifts while adhering to food safety and sanitation guidelines.
 
-## Stock Associate, GoodWill
+## Data Entry, National Intercollegiate Rodeo Association
 
 ### 2022
 
-- Received, sorted, and stocked incoming merchandise to ensure shelves were well-stocked and organized.
+- Accurately entered and maintained data for rodeo events, ensuring 100% up-to-date records.
 
-- Maintained inventory levels by monitoring stock and assisting with regular inventory checks.
+- Streamlined information processing, improving event management efficiency by 25%.
 
-- Collaborated with team members to create visually appealing displays, enhancing the shopping experience.
-
-- Ensured a clean and safe work environment by following all safety and sanitation guidelines.
+- Collaborated with team members to enhance data organization, contributing to a smoother workflow.
 
 ## Loss Mitigation Specialist, Banner Bank
 
@@ -135,43 +133,19 @@ Self-taught and determined, I'm a junior-level Full Stack developer seeking an o
 
 - Monitored loan pipelines to track progress and ensure timely updates on loan statuses.
 
-## Direct Sales Representative, Spectrum
+## Sales Roles, (Spectrum, OSL Retail Services, and Walmart)
 
-### 2020
+### 2016 - 2020
 
-- Promoted and sold Spectrum’s products, exceeding sales targets and driving revenue growth.
+- Exceeded sales targets at **Spectrum**, achieving the highest sales in July and driving revenue growth through effective promotion of products.
 
-- Achieved the highest sales in the team for July, showcasing exceptional performance.
+- Built strong customer relationships at **OSL Retail Services**, resulting in increased satisfaction and repeat business through tailored solutions and exceptional service.
 
-- Developed strong customer relationships, resulting in increased satisfaction and repeat business.
+- Streamlined operations at **OSL Retail Services** by managing customer requests and inventory, enhancing efficiency and transaction smoothness in retail environments.
 
-- Conducted needs assessments to tailor solutions, enhancing conversion rates and customer engagement.
+- Engaged customers at **Walmart** in discussions about products and services, effectively educating them on options and promotions, leading to higher customer satisfaction and engagement.
 
-## Mobile Sales Expert, OSL Retail Services
-
-### 2019
-
-- Engaged customers in discussions about mobile devices and plans, effectively educating them on policies and restrictions, leading to higher customer satisfaction.
-
-- Streamlined operations by managing customer requests and inventory, resulting in improved efficiency and smoother transactions.
-
-- Provided exceptional service by assisting with product inquiries and purchases, enhancing the overall shopping experience.
-
-- Successfully promoted current promotions to customers, driving increased sales and revenue for the store.
-
-## Customer Service & Sales Associate, Walmart
-
-### 2016 - 2017
-
-- Assisted in remodeling efforts, ensuring product displays were appealing and aligned with store standards, which contributed to improved customer engagement.
-
-- Handled cash register operations, efficiently processing transactions and managing customer payments while maintaining accuracy and speed.
-
-- Provided exceptional customer service by addressing inquiries and resolving issues, enhancing the overall shopping experience for customers.
-
-- Collaborated with team members to maintain a clean and organized store environment, supporting operational efficiency and customer satisfaction.
-
-- Received training in customer service techniques, applying skills to foster positive relationships with customers and improve service quality.
+- Handled cash register operations and maintained organized displays at **Walmart**, contributing to improved customer experience and operational efficiency.
 
 ----
 
